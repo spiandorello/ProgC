@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1535816856 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila e pilhas\fila_com_lista_encadeada\lista_enc.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+
+1535825766 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila e pilhas\fila_com_lista_encadeada\lista_enc.h
+	"no.h"
+
+1535119156 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila e pilhas\fila_com_lista_encadeada\no.h
+
+1535936559 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila e pilhas\fila_com_lista_encadeada\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1534792786 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila e pilhas\fila_com_lista_encadeada\no.c
+	<stdio.h>
+	<stdlib.h>
+	"no.h"
+
+1535936618 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila e pilhas\fila_com_lista_encadeada\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+	"lista_enc.h"
+
+1535936379 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila e pilhas\fila_com_lista_encadeada\fila.h
+
+1536075805 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_com_lista_encadeada\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+	"lista_enc.h"
+
+1535936379 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_com_lista_encadeada\fila.h
+
+1535825766 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_com_lista_encadeada\lista_enc.h
+	"no.h"
+
+1535119156 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_com_lista_encadeada\no.h
+
+1535816856 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_com_lista_encadeada\lista_enc.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+
+1535937102 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_com_lista_encadeada\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1534792786 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_com_lista_encadeada\no.c
+	<stdio.h>
+	<stdlib.h>
+	"no.h"
+

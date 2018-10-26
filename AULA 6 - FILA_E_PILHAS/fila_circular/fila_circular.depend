@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1537190831 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_circular\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1536690215 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_circular\fila.h
+
+1537191099 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_circular\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+

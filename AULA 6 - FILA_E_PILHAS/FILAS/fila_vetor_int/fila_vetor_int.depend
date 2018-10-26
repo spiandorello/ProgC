@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1536886455 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_vetor_int\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1535648792 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_vetor_int\fila.h
+
+1536886556 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\fila_vetor_int\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1536886556 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\filas\fila_vetor_int\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1535648792 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\filas\fila_vetor_int\fila.h
+
+1536887162 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\filas\fila_vetor_int\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+

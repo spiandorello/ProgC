@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1534462675 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 3 - e-s dados\exercicio_e_s_dados\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+

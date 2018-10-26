@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1536774665 source:/home/xtarke/Pictures/prova_01/main.c
+	<stdio.h>
+	<stdlib.h>
+	"calc.h"
+
+1536774366 /home/xtarke/Pictures/prova_01/calc.h
+
+1536773739 source:/home/xtarke/Pictures/prova_01/pilha.c
+	<stdlib.h>
+	<stdio.h>
+	"pilha.h"
+
+1536776053 /home/xtarke/Pictures/prova_01/pilha.h
+
+1536777441 source:/home/xtarke/Pictures/prova_01/calc.c
+	<stdio.h>
+	<stdlib.h>
+	"calc.h"
+	"pilha.h"
+
+1537274258 source:c:\users\aluno\desktop\prova_01\main.c
+	<stdio.h>
+	<stdlib.h>
+	"calc.h"
+
+1537280211 c:\users\aluno\desktop\prova_01\calc.h
+
+1537880266 source:c:\users\aluno\desktop\prova_01\pilha.c
+	<stdlib.h>
+	<stdio.h>
+	"pilha.h"
+
+1537880266 c:\users\aluno\desktop\prova_01\pilha.h
+
+1537880415 source:c:\users\aluno\desktop\prova_01\calc.c
+	<stdio.h>
+	<stdlib.h>
+	"calc.h"
+	"pilha.h"
+

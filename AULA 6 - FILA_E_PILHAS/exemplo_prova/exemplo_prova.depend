@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1536889190 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\exemplo_prova\pilha.c
+	<stdlib.h>
+	<stdio.h>
+	"fila.h"
+	"pilha.h"
+
+1536953798 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\exemplo_prova\fila.h
+
+1535648792 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\exemplo_prova\pilha.h
+
+1536957079 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\exemplo_prova\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1536956971 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\exemplo_prova\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+	"pilha.h"
+

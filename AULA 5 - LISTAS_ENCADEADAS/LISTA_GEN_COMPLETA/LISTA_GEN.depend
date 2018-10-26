@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1534792786 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\lista_gen_completa\no.c
+	<stdio.h>
+	<stdlib.h>
+	"no.h"
+
+1535119156 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\lista_gen_completa\no.h
+
+1535816833 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\lista_gen_completa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+
+1535825766 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\lista_gen_completa\lista_enc.h
+	"no.h"
+
+1535816856 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\lista_gen_completa\lista_enc.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+
+1537105562 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 5 - listas_encadeadas\lista_gen_completa\lista_enc.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+
+1535825766 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 5 - listas_encadeadas\lista_gen_completa\lista_enc.h
+	"no.h"
+
+1535119156 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 5 - listas_encadeadas\lista_gen_completa\no.h
+
+1534792786 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 5 - listas_encadeadas\lista_gen_completa\no.c
+	<stdio.h>
+	<stdlib.h>
+	"no.h"
+
+1537105375 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 5 - listas_encadeadas\lista_gen_completa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+

@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1536675052 source:c:\users\aluno\desktop\fila_vetor\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1535648792 c:\users\aluno\desktop\fila_vetor\fila.h
+
+1536675176 source:c:\users\aluno\desktop\fila_vetor\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1537186881 source:c:\users\dudu\desktop\programação 2\aula 6 - fila_e_pilhas\fila_vetor_ex1\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1535648792 c:\users\dudu\desktop\programação 2\aula 6 - fila_e_pilhas\fila_vetor_ex1\fila.h
+
+1537186768 source:c:\users\dudu\desktop\programação 2\aula 6 - fila_e_pilhas\fila_vetor_ex1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1537186881 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\filas\fila_vetor_ex1\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1535648792 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\filas\fila_vetor_ex1\fila.h
+
+1537186768 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - fila_e_pilhas\filas\fila_vetor_ex1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+

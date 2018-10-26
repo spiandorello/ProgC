@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1533301779 source:c:\users\dudu\desktop\macros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+
+1533301745 c:\users\dudu\desktop\macros\macros.h
+
+1537839837 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 1 - prÉ_processador\macros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+
+1533302222 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 1 - prÉ_processador\macros\macros.h
+

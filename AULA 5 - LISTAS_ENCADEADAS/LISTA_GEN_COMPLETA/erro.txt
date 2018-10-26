@@ -1,0 +1,12 @@
+main.c: In function ‘main’:
+main.c:34:51: error: expected ‘)’ before ‘;’ token
+     printf("\t\t\t\t\t\t\t%p",remove_cabeca(lista);
+                                                   ^
+main.c:42:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+main.c: In function ‘imprimi_lista’:
+main.c:49:28: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘void *’ [-Wformat=]
+         printf("Conteudo: %s\n", obter_dado(meu_no));
+                           ~^     ~~~~~~~~~~~~~~~~~~
+                           %p

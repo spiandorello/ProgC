@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1537999185 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 7 - lista_dulpa_encadeadas\tarefa_adicional\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+
+1537990633 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 7 - lista_dulpa_encadeadas\tarefa_adicional\lista_enc.h
+	"no.h"
+
+1537998733 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 7 - lista_dulpa_encadeadas\tarefa_adicional\no.h
+
+1537998733 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 7 - lista_dulpa_encadeadas\tarefa_adicional\no.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"no.h"
+
+1537997004 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 7 - lista_dulpa_encadeadas\tarefa_adicional\lista_enc.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+

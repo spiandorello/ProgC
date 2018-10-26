@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1534860581 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 5 - dados-abstratos\wintergames aloc_din e tda\jogos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jogos.h"
+
+1534860446 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 5 - dados-abstratos\wintergames aloc_din e tda\jogos.h
+
+1534860506 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 5 - dados-abstratos\wintergames aloc_din e tda\main.c
+	<stdio.h>
+	<stdlib.h>
+	"jogos.h"
+

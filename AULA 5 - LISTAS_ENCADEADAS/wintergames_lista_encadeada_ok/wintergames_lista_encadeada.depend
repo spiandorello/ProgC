@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1535821087 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+	"jogos.h"
+
+1535819482 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada\lista_enc.h
+	"no.h"
+
+1535119156 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada\no.h
+
+1535819482 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada\lista_enc.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+
+1534792786 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada\no.c
+	<stdio.h>
+	<stdlib.h>
+	"no.h"
+
+1535819887 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada\jogos.h
+	"lista_enc.h"
+
+1535820339 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada\jogos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jogos.h"
+	"lista_enc.h"
+
+1535819935 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada_teste\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+	"jogos.h"
+
+1535819482 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada_teste\lista_enc.h
+	"no.h"
+
+1535119156 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada_teste\no.h
+
+1535819887 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada_teste\jogos.h
+	"lista_enc.h"
+
+1535819482 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada_teste\lista_enc.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_enc.h"
+	"no.h"
+
+1534792786 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada_teste\no.c
+	<stdio.h>
+	<stdlib.h>
+	"no.h"
+
+1535820339 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 6 - listas encadeadas\wintergames_lista_encadeada_teste\jogos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"jogos.h"
+	"lista_enc.h"
+

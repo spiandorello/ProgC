@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1534254698 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 4 - alocaÇÃo dinÂmica\wintergames com alocação dinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

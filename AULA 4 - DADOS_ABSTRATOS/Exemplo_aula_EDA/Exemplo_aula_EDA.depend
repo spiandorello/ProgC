@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1534423354 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 5 - dados-abstratos\exemplo_aula_eda\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ponto.h"
+
+1534423354 c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 5 - dados-abstratos\exemplo_aula_eda\ponto.h
+
+1534423354 source:c:\users\dudu\documents\engenharia\semestre 5\programação 2\aula 5 - dados-abstratos\exemplo_aula_eda\ponto.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"ponto.h"
+

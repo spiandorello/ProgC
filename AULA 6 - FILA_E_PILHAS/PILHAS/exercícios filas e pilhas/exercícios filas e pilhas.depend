@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1536674270 source:c:\users\mikae\documents\projetos c\pilha\exercícios filas e pilhas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
+
+1536070641 c:\users\mikae\documents\projetos c\pilha\exercícios filas e pilhas\pilha.h
+
+1536675697 source:c:\users\mikae\documents\projetos c\pilha\exercícios filas e pilhas\pilha.c
+	<stdlib.h>
+	<stdio.h>
+	"pilha.h"
+
