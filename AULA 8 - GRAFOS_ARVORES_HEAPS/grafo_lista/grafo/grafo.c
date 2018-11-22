@@ -105,7 +105,7 @@ void dfs(grafo_t *grafo, vertice_t* inicial)
 		no = obtem_proximo(no);
 	}
 	push(inicial, pilha);
-	printf("%d\n",vertice_get_id(inicial));
+	//printf("%d\n",vertice_get_id(inicial));
 
 	while(!pilha_vazia(pilha)){
 		u = pop(pilha);
@@ -120,6 +120,7 @@ void dfs(grafo_t *grafo, vertice_t* inicial)
 				aresta = obter_dado(no);
 				u = aresta_get_adjacente(aresta);
 				push(u,pilha);
+				printf("%d\n",vertice_get_id(u));
 				no = obtem_proximo(no);
 			}
 		}
