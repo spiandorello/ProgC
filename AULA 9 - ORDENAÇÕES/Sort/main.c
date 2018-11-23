@@ -4,14 +4,14 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#include "bublle.h"
-
-#define SIZE 100000
+#include "sort.h"
 
 int main(){
 
 	int *vet;
 	int i;
+	int v[] = {10, 9, 8, 7, 6, 5};
+
 	double tempo = 0;
 	clock_t Ticks[2];
 
@@ -29,17 +29,20 @@ int main(){
 
 	Ticks[0] = clock();
 
-	bubble(vet, SIZE);
+	//bubble(vet, SIZE);
+	//qs(vet, 0, SIZE - 1);
+	//insertsort_direta(vet, SIZE);
+	//insertsort_binaria(v, 6);
 
+	//merge_sort(v, 0, 5);
 	Ticks[1] = clock();
 
 	tempo = (Ticks[1] - Ticks[0]) * 1000.0 / CLOCKS_PER_SEC;
-	printf("Tempo gasto: %g ms.", tempo);
+	printf("Tempo gasto: %g ms.\n", tempo);
 
 
-
-	//for(i=0; i < SIZE ; i++)
-	//	printf("%d ", vet[i]);
+	for(i=0; i < 5 ; i++)
+		printf("%d\n  ", v[i]);
 
 	return(0);
 }
