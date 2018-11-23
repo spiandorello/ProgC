@@ -6,11 +6,12 @@
 
 #include "sort.h"
 
+
 int main(){
 
 	int *vet;
 	int i;
-	int v[] = {10, 9, 8, 7, 6, 5};
+	//int v[] = {10, 9, 8, 7, 6, 5};
 
 	double tempo = 0;
 	clock_t Ticks[2];
@@ -32,17 +33,18 @@ int main(){
 	//bubble(vet, SIZE);
 	//qs(vet, 0, SIZE - 1);
 	//insertsort_direta(vet, SIZE);
-	//insertsort_binaria(v, 6);
+	//insertsort_binaria(vet, SIZE);
+	//merge_sort(vet, SIZE);
+	//select_sort(vet, SIZE);
 
-	//merge_sort(v, 0, 5);
 	Ticks[1] = clock();
 
 	tempo = (Ticks[1] - Ticks[0]) * 1000.0 / CLOCKS_PER_SEC;
 	printf("Tempo gasto: %g ms.\n", tempo);
 
 
-	for(i=0; i < 5 ; i++)
-		printf("%d\n  ", v[i]);
+	//for(i=0; i < 6 ; i++)
+		//printf("%d   ", v[i]);
 
 	return(0);
 }

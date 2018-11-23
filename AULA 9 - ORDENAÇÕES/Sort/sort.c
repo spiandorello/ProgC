@@ -53,22 +53,54 @@ void insertsort_binaria(int *v, int n){
 		}
 
 		for(j = i; j > esq; j--)
-			swap(&v[j-1], &j);
+			swap(&v[j-1], &v[j]);
 	}
 }
 
-void merge_sort(int *v, int esq, int dir){
+void merge_sort(int *v, int n){
+
+    int *temp;
+
+	temp = (int *) malloc(sizeof(int) * SIZE);
+
+	if(temp == NULL){
+		perror("Erro ao alocar memoria: ");
+		exit(EXIT_FAILURE);
+	}
+
+	merge_sort_imp(v, temp, 0, SIZE - 1);
+
+
+}
+
+void merge_sort_imp(int *v, int *temp, int esq, int dir){
 
 	int meio = 0;
 
 	if(esq < dir){
 
 		meio = (esq + dir) / 2;
-		merge_sort(v, esq, meio);
-		merge_sort(v, meio + 1, dir);
+		merge_sort_imp(v, temp, esq, meio);
+		merge_sort_imp(v,temp, meio + 1, dir);
 
-		funde(v, esq, meio, dir);
+		funde(v, temp, esq, meio, dir);
 	}
+}
+
+void select_sort(int *v, int n){
+
+    int i, j, max;
+
+    for(i = n; i > 1; i--){
+
+       max =0;
+
+       for(j = 1; j < i; j++)
+        if(v[j] > v[max])
+            max = j;
+
+       swap(&v[i-1], &v[max]);
+    }
 }
 
 void swap(int *a, int *b){
@@ -123,19 +155,11 @@ int particiona(int *v, int esq, int dir){
 	}
 }
 
-void funde(int *v, int esq, int meio, int dir){
+void funde(int *v, int *temp, int esq, int meio, int dir){
 
 	int i, j, k;
-	int *temp;
 
-	temp = (int *) malloc(sizeof(int) * SIZE);
-
-	if(temp == NULL){
-		perror("Erro ao alocar memoria: ");
-		exit(EXIT_FAILURE);
-	}
-
-	i = dir;
+	i = esq;
 	j = esq;
 	k = meio + 1;
 

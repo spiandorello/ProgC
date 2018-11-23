@@ -10,6 +10,7 @@
 
 #define SIZE 100000
 
+
 /* Ordenações */
 /* n --> tamanho do vetor */
 
@@ -20,14 +21,17 @@ void insertsort_direta(int *v, int n);
 void insertsort_binaria(int *v, int n);
 
 
-void merge_sort(int *v, int esq, int dir);
+void merge_sort_imp(int *v, int *temp, int esq, int dir);
+void merge_sort(int *v, int n);
+
+void select_sort(int *v, int n);
 
 /* Funções Auxiliares */
 
 void swap(int *a, int *b);
 int mediana_de_tres(int *v, int esq, int dir);
 int particiona(int *v, int esq, int dir);
-void funde(int *v, int esq, int meio, int dir);
+void funde(int *v, int *temp, int esq, int meio, int dir);
 
 
 #endif /* SORT_H_ */
