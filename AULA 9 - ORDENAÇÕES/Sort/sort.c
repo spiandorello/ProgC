@@ -69,6 +69,7 @@ void merge_sort(int *v, int n){
 	}
 
 	merge_sort_imp(v, temp, 0, SIZE - 1);
+	free(temp);
 
 
 }
@@ -85,6 +86,7 @@ void merge_sort_imp(int *v, int *temp, int esq, int dir){
 
 		funde(v, temp, esq, meio, dir);
 	}
+	free(temp);
 }
 
 void select_sort(int *v, int n){
@@ -100,6 +102,23 @@ void select_sort(int *v, int n){
             max = j;
 
        swap(&v[i-1], &v[max]);
+    }
+}
+
+
+void heap_sort(int *vet, int n)
+{
+    int i, aux;
+
+    for(i = (n-1)/2; i >= 0; i--)
+        build_heap(vet, i, n-1);
+
+    for(i = n-1; i >= 1; i--)
+    {
+        aux = vet[0];
+        vet[0] = vet[i];
+        vet[i] = aux;
+        build_heap(vet, 0, i - 1);
     }
 }
 
@@ -174,5 +193,26 @@ void funde(int *v, int *temp, int esq, int meio, int dir){
 
 }
 
+void build_heap(int *vet, int i, int k)
+{
+    int aux = vet[i];
+    int j = i*2+1;
 
-
+    while (j <= k)
+    {
+        if(j < k)
+        {
+            if(vet[j] < vet[j+1])
+                j++;
+        }
+        if(aux < vet[j])
+        {
+            vet[i] = vet[j];
+            i = j;
+            j = 2*i +1;
+        }
+        else
+            j = k+1;
+        vet[i] = aux;
+    }
+}

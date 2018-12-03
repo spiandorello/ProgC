@@ -32,6 +32,8 @@ void swap(int *a, int *b);
 int mediana_de_tres(int *v, int esq, int dir);
 int particiona(int *v, int esq, int dir);
 void funde(int *v, int *temp, int esq, int meio, int dir);
+void heap_sort(int *vet, int n);
+void build_heap(int *vet, int i, int k);
 
 
 #endif /* SORT_H_ */
